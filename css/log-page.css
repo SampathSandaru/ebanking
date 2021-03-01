@@ -1,0 +1,77 @@
+     
+.first{
+        background-image:linear-gradient(160deg,greenyellow,white 89%);
+        height:65px;
+    }
+            
+.img1{
+    background-color:linear-gradient(160deg,greenyellow,white);
+}
+.navbar-brand{
+    color: aliceblue;
+}
+ .navbar-brand:hover{
+    color:#8ca5ce;
+}
+
+/**********************************************************************************/
+            
+ .nav-animation{
+          opacity: 0.0;
+          animation-name: animate_topic;
+          animation-delay: 0.5s;
+          animation-duration: 1s;
+          animation-fill-mode: forwards;
+        }
+@keyframes animate_topic{
+           from {margin-top:-20px; opacity: 0.0;}
+           to {margin-top:0px; opacity: 1.0;}
+      }
+/**********************************************************************************/
+.main-animation{
+    opacity: 0.0;
+    animation-name: animate_main;
+    animation-delay: 0.9s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+        }
+@keyframes animate_main{
+           from {margin-left:-50px; opacity: 0.0;}
+           to {margin-left:0px; opacity: 1.0;}
+      }
+
+/**********************************************************************************/
+
+
+            
+            
+table{
+    width:80%;
+}
+td{
+    height:35px;
+}
+
+table input[type=text],input[type=password]{
+    width: 90%;
+    display: inline-block;
+}
+            
+  .log-table{
+        margin: 25% 0% 10% 20%; 
+        opacity: 0.0;
+        animation-name: animate_log;
+        animation-delay: 1s;
+        animation-duration: 1.3s;
+        animation-fill-mode: forwards;
+    }
+            
+    @keyframes animate_log{
+        from { opacity: 0.0;}
+        to { opacity: 1.0;}
+}
+            
+
+    
+ 
+    
